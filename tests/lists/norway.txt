@@ -1,0 +1,11 @@
+Pack for {{Location}}:
+	Preparation:
+		- HelseNorge Registration Form
+		- Check what to bring to Bergen
+	Suitcase:
+		- Gloves
+		- Boots
+	Backpack:
+		- Coat
+	Kristin:
+		- Flowers

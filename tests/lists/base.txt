@@ -1,0 +1,10 @@
+Pack for {{Location}}:
+	Preparation:
+		- Download airline app
+		- COVID checks
+		- Gift for host
+	Suitcase:
+		- Clothes
+		- Toiletries
+	Backpack:
+		- Passport

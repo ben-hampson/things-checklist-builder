@@ -1,0 +1,9 @@
+Pack for {{Location}}:
+	Preparation:
+		- Buy paracetamol
+		- Complete baggage tag
+	Suitcase:
+		- Work Laptop
+		- Mouse
+	Backpack:
+		- MacBook Air
