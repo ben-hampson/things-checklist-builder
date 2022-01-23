@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "Things List Merger"
+name = "Things Checklist Builder"
 version = "0.1.0"
-description = "Merges multiple template lists together in order to make a new project in Things 3."
+description = "Merge multiple template lists together to create a new project in Things 3."
 authors = ["Ben Hampson"]
 
 [tool.poetry.dependencies]

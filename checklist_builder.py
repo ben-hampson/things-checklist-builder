@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
     # Put 'base.txt' or 'base.md' first
     for i, f in enumerate(files):
-        if re.search(r"base.(txt|md)", f.get_suggested_name()):
+        if re.search(r"base.(txt|md)", f.get_suggested_name(), re.IGNORECASE):
             if i == 0:
                 break
             base_file = files.pop(i)

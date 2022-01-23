@@ -1,15 +1,11 @@
 """How do I get tests to work if the interpreter doesn't have the pasteboard module?"""
 
 import sys
-from unittest.mock import patch, Mock, MagicMock
+from unittest.mock import Mock
 from collections import OrderedDict
-
 sys.modules["pasteboard"] = Mock()
 from things_list_merger.list_merger import text_to_dict
 from pathlib import Path
-
-# Mock shortcuts attachments
-
 
 def test_task_with_subtasks_and_notes():
     """A task with subtasks and notes should be handled right."""
