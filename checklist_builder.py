@@ -17,18 +17,18 @@ def text_to_dict(text: str) -> OrderedDict:
             continue
 
         # Section Heading
-        if re.search(r'^\t\S*.*:', line):
+        if re.search(r'^(\t| {4}){1}\S*.*:', line):
             section = line
             full_list[section] = OrderedDict()
             continue
 
         # Task
-        if re.search(r'^\t\t- .*', line):
+        if re.search(r'^(\t{2}| {8})- .*', line):
             task = line
             full_list[section][task] = []
 
         # Task Note / Sub-task
-        if re.search(r'^\t\t\t.*', line):
+        if re.search(r'^(\t{3}| {12})\S*.*', line):
             subtask_or_note = line
             full_list[section][task].append(subtask_or_note)
 
