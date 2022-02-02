@@ -3,7 +3,6 @@ from collections import OrderedDict
 from pasteboard import shortcuts_attachments
 import re
 import sys
-from pprint import pprint
 
 def text_to_dict(text: str) -> OrderedDict:
     """Convert text to OrderedDict."""

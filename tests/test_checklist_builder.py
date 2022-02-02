@@ -4,7 +4,7 @@ import sys
 from unittest.mock import Mock
 from collections import OrderedDict
 sys.modules["pasteboard"] = Mock()
-from things_list_merger.list_merger import text_to_dict
+from checklist_builder import text_to_dict
 from pathlib import Path
 
 def test_task_with_subtasks_and_notes():
