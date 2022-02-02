@@ -17,7 +17,7 @@ def text_to_dict(text: str) -> OrderedDict:
             continue
 
         # Section Heading
-        if re.search(r'^\t\S*:', line):
+        if re.search(r'^\t\S*.*:', line):
             section = line
             full_list[section] = OrderedDict()
             continue
